@@ -1,0 +1,28 @@
+{
+  "name": "citech_lakbay_lokal",
+  "version": "1.0.0",
+  "description": "Community Tourism Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --watch",
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdlladones2003/citech_lakbay_lokal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mdlladones2003/citech_lakbay_lokal/issues"
+  },
+  "homepage": "https://github.com/mdlladones2003/citech_lakbay_lokal#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "daisyui": "^5.7.42",
+    "tailwindcss": "^4.3.3"
+  }
+}
