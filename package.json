@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --watch",
+<<<<<<< HEAD
     "build:css": "tailwindcss -i ./assets/css/input.css -o ./public/output.css"
+=======
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --minify"
+>>>>>>> c5e630e4721ca9b88f021c8cb2357ed54a9b1010
   },
   "repository": {
     "type": "git",
@@ -22,7 +26,10 @@
   "homepage": "https://github.com/mdlladones2003/citech_lakbay_lokal#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
+<<<<<<< HEAD
     "daisyui": "^5.7.42",
+=======
+>>>>>>> c5e630e4721ca9b88f021c8cb2357ed54a9b1010
     "tailwindcss": "^4.3.3"
   }
 }
