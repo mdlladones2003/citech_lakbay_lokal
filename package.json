@@ -5,12 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --watch",
-<<<<<<< HEAD
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./public/output.css --watch",
     "build:css": "tailwindcss -i ./assets/css/input.css -o ./public/output.css"
-=======
-    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --minify"
->>>>>>> c5e630e4721ca9b88f021c8cb2357ed54a9b1010
   },
   "repository": {
     "type": "git",
@@ -24,12 +20,9 @@
     "url": "https://github.com/mdlladones2003/citech_lakbay_lokal/issues"
   },
   "homepage": "https://github.com/mdlladones2003/citech_lakbay_lokal#readme",
-  "dependencies": {
+  "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
-<<<<<<< HEAD
     "daisyui": "^5.7.42",
-=======
->>>>>>> c5e630e4721ca9b88f021c8cb2357ed54a9b1010
     "tailwindcss": "^4.3.3"
   }
 }
